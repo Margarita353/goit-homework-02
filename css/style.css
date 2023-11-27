@@ -1,24 +1,25 @@
 body{
-color: #434455;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 140%; /* 19.6px */
+    background-color: #FFFFFF;
+    color: #434455;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
 }
 /* HEADER */
 .logo{
-    color: var(--NAVY-BLUE, #2E2F42);
-    font-family: Raleway;
+    color: var(--NAVY-BLUE, #4D5AE5 );
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 21px; /* 116.667% */
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 .logo-item{
-color: var(--IRIS, #4D5AE5);
+color: var(--IRIS,#2E2F42);
 font-family: Raleway;
 font-size: 18px;
 font-style: normal;
@@ -33,28 +34,50 @@ text-transform: uppercase;
     width: 48px;
     height: 48px;
     align-items: center;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02;
 }
 .nav-list:hover {
     color: #404BBF;
 }
+.nav-list:focus {
+    color:  #404bbf;
+}
 /* ADDRESS */
+.addres{
+    font-style: normal;
+}
 .add-link-mail{
     color: #434455;
     width: 153px;
     height: 24px;
     align-items: center;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .add-link-mail:hover{
     color: #404BBF;
 }
+.add-link-mail:focus {
+    color: #404bbf;
+}
+
 .add-link-tel{
     color: #434455;
     width: 153px;
     height: 24px;
     align-items: center;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .add-link-tel:hover{
     color: #404BBF;
+}
+.add-link-tel:focus {
+    color: #404bbf;
 }
 
 /* MAIN PART */
@@ -68,12 +91,18 @@ text-transform: uppercase;
     font-size: 56px;
     font-weight: 700;
     font-style: normal;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 1.12px;
 }
 .btn{
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04;
     border-radius: 4px;
     background: var(--IRIS, #4D5AE5);
+    color: ;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
@@ -85,6 +114,12 @@ text-transform: uppercase;
     line-height: 24px;
     letter-spacing: 0.64px;
 }
+.btn-title:hover {
+    background-color: #404BBF ;
+}
+.btn-title:focus {
+    background-color: #404BBF;
+}
 
 /* BENEFITS */
 .benefits-title{
@@ -94,6 +129,7 @@ text-transform: uppercase;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
+
 }
 .benefits-title-text{
     color: var(--SLATE, #434455);
@@ -105,14 +141,18 @@ text-transform: uppercase;
 }
 
 /* OUR TEAM */
+.team {
+    background-color: #F4F4FD;
+}
 .team-title{
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px; 
+    line-height: 1.11; 
     letter-spacing: 0.72px;
+    text-transform: capitalize;
 }
 .team-img{
     width: 264px;
@@ -144,7 +184,7 @@ text-transform: uppercase;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px; 
+    line-height: 1.11; 
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
@@ -176,30 +216,30 @@ text-transform: uppercase;
     height: 312px;
 }
 .logo-footer{
-    color: var(--CLOUD, #F4F4FD);
-    font-family: Raleway;
+    color: var(--CLOUD,#4D5AE5 );
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 .logo-footer-item{
-    color: var(--IRIS, #4D5AE5);
-    font-family: Raleway;
+    color: var(--IRIS, #f4f4fd);
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 .footer-text{
-    color: var(--CLOUD, #F4F4FD);
+    color: #F4F4FD;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; 
-    letter-spacing: 0.32px;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
 }
