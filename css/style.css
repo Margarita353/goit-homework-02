@@ -36,7 +36,7 @@ text-transform: uppercase;
     align-items: center;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02 em;
+    letter-spacing: 0.02em;
 }
 .nav-list:hover {
     color: #404BBF;
@@ -45,7 +45,7 @@ text-transform: uppercase;
     color:  #404bbf;
 }
 /* ADDRESS */
-.addres{
+.address{
     font-style: normal;
 }
 .add-link-contact {
@@ -93,6 +93,7 @@ text-transform: uppercase;
     background: var(--IRIS, #4D5AE5);
     color: #ffffff;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 }
 
 .btn-title{
