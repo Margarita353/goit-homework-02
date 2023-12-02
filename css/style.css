@@ -15,6 +15,7 @@ a {
 
 /* HEADER */
 .logo {
+    margin-right: 76px;
     color:  #4D5AE5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -25,28 +26,36 @@ a {
 }
 .logo-item {
     color: #2E2F42;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
-.nav-list-link {
+.nav-list-item {
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.nav-list-link:hover,
-.nav-list-link:active {
+.nav-list-item:hover,
+.nav-list-item:active {
     color: #404BBF;
 }
-.add-link-contact {
+.address {
+    font-style: normal;
+}
+.address-list-link {
     font-family: Roboto, sans-serif;
     color: #434455;
-    font-style: normal;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.add-link-contact:hover {
+.address-list-link:hover {
     color: #404BBF;
 }
 
@@ -99,7 +108,7 @@ a {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.12;
+    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 .benefits-title-text {
