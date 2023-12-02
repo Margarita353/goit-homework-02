@@ -74,7 +74,7 @@ a {
     text-align: center;
     font-size: 56px;
     font-weight: 700;
-    line-height: 1.08;
+    line-height: 1.07;
     letter-spacing: 0.02em;
 }
 .btn {
@@ -82,17 +82,24 @@ a {
     padding: 16px 32px;
     align-items: flex-start;
     gap: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     border-radius: 4px;
     background-color:  #4D5AE5;
+    color: #ffffff;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 }
 .btn-title {
-    color: #FFF;
+    color:  #ffffff;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 .btn:hover {
     background-color: #404BBF;
@@ -102,23 +109,15 @@ a {
 }
 
 /* SECTION-2*/
-.benefits_title {
+.benefits-list-item {
     font-weight: 500;
-    font-size: 20p;
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42 ;
 }
-.benefits-title {
-    width: 264px;
-    color: #2E2F42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
 .benefits-title-text {
-    color: var(--SLATE, #434455);
+    color: #434455;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
