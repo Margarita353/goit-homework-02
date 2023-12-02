@@ -7,8 +7,21 @@ body{
     font-weight: 500;
     line-height: 140%;
 }
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+
 /* HEADER */
+.nav-container {
+    
+}
 .logo{
+    display: inline-flex;
+    align-items: center;
+    flex-shrink: 0;
     color: var(--NAVY-BLUE, #4D5AE5 );
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -28,8 +41,11 @@ line-height: 21px; /* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase;
 }
-/* NAV-LIST */
-.nav-list{
+.nav-list-items {
+    display: block;
+    color: red;
+}
+.nav-list-link{
     color: #2E2F42;
     width: 48px;
     height: 48px;
@@ -38,13 +54,14 @@ text-transform: uppercase;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.nav-list:hover {
+.nav-list-link:hover {
     color: #404BBF;
 }
-.nav-list:focus {
+.nav-list-link:focus {
     color:  #404bbf;
 }
-/* ADDRESS */
+
+
 .address{
     font-style: normal;
 }
@@ -64,6 +81,7 @@ text-transform: uppercase;
 .add-link-contact:focus {
     color: #404BBF;
 }
+
 
 /* MAIN PART */
 /* PAGE TITLE */
