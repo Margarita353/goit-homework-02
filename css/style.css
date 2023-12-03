@@ -16,6 +16,7 @@ a {
 /* HEADER */
 .header-logo {
     margin-right: 76px;
+    width: 44px;
     color:  #4D5AE5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -25,6 +26,7 @@ a {
     text-transform: uppercase;
 }
 .header-logo-item {
+    width: 71px;
     color: #2E2F42;
 }
 .nav-list-link{
@@ -38,12 +40,11 @@ a {
 .nav-list-link:active {
     color: #404BBF;
 }
-.address {
-    font-style: normal;
-}
+
 .add-link-contact {
     font-family: Roboto, sans-serif;
     color: #434455;
+    font-style: normal;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -131,7 +132,9 @@ a {
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-
+.team-list-item {
+    background-color: #FFFFFF;
+}
 .team-img {
     width: 264px;
     height: 260px;
