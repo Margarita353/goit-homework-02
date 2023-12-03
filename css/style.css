@@ -37,20 +37,22 @@ a {
     letter-spacing: 0.02em;
 }
 .nav-list-link:hover,
-.nav-list-link:active {
+.nav-list-link:focus {
     color: #404BBF;
 }
-
+.address-list {
+    font-style: normal; 
+}
 .add-link-contact {
     font-family: Roboto, sans-serif;
     color: #434455;
-    font-style: normal;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.002em;
+    letter-spacing: 0.02em;
 }
-.add-link-contact:hover {
+.add-link-contact:hover,
+.add-link-contact:focus {
     color: #404BBF;
 }
 
